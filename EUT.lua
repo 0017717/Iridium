@@ -39,7 +39,7 @@ local Tabs = {
 	--// Groupboxes
 local LGB = Tabs.Home:AddLeftGroupbox("Information")
 local RGB = Tabs.Home:AddRightGroupbox("Updates")
-	--// 
+	--// Information Box
 LGB:AddLabel({Text = "Name: "..plr.Name.."\nExecutor: "..identifyexecutor() or "N/A".."", DoesWrap = true})
 --// Automation UI
 
